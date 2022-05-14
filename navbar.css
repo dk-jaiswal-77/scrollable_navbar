@@ -1,8 +1,10 @@
 .slider{
-    border: 1px solid red;
+    border: 2px solid black;
+    border-radius: 5px;
     display: flex;
     gap: 2rem;
     overflow: scroll;
+    padding: 1rem;
 }
 
 .slider::-webkit-scrollbar{
@@ -12,7 +14,9 @@
 .slider > span{
     display: inline-block;
     min-width: max-content;
-    border: 1px solid green;
-    border-radius: 3px;
-    padding: 0.3rem 0.7rem;
+    background: hotpink;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 0.7rem;
 }
